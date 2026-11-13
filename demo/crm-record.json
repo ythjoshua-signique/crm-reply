@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "inquiryId": "DEMO-001",
+  "synthetic": true,
+  "language": "ko",
+  "intents": [
+    "appointment",
+    "pricing"
+  ],
+  "classificationReason": "예약 가능 여부와 비용을 함께 문의했습니다.",
+  "summary": "토요일 오후 프로필 촬영 예약과 비용 문의",
+  "requestedAppointment": "이번 주 토요일 오후",
+  "bookingStatus": "NOT_CONFIRMED",
+  "replyDraft": "안녕하세요. 문의해 주셔서 감사합니다. 이번 주 토요일 오후에 프로필 촬영 예약이 가능한 시간과 비용을 확인해 안내드리겠습니다. 오후 중 편하신 시간대가 있으시면 알려주세요.",
+  "staffChecks": [
+    {
+      "owner": "예약 담당자",
+      "check": "문의 수신 시각 기준으로 토요일 날짜를 확인하고 오후 운영시간과 예약표를 조회합니다."
+    },
+    {
+      "owner": "상담 담당자",
+      "check": "승인된 프로필 촬영 비용과 적용 조건을 확인합니다."
+    }
+  ],
+  "status": "HOLD_FOR_STAFF",
+  "delivery": "NOT_SENT"
+}
